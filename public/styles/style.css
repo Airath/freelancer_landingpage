@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  color: #000;
+  background-color: #e1f0ff;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  position: sticky;
+  top: 0;
+  background-color: #e1f0ff;
+  height: 5rem;
+}
+
+nav a {
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: medium;
+}
+
+.highlight {
+  color: cornflowerblue;
+  font-weight: 900;
+}
+
+body {
+}
+
+.header {
+  margin-top: 9rem;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button {
+  background-color: cornflowerblue;
+  padding: 1rem;
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  border-radius: 16px;
+  margin-top: 3rem;
+}
+
+.hero {
+  height: 100vh;
+  font-size: xx-large;
+  width: 45rem;
+  margin: 0 auto;
+}
+
+.header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.services {
+  height: 100vh;
+}
+
+/* h1 {
+  animation: fadeInRight 1s ease-in-out;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 1;
+  }
+} */
